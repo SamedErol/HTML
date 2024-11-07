@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Üye kayıt formu</h1>
+    <form name="kayit" action="kayit.php" method="get">
+        Ad Soyad <input type="text" name="adsoyad" id="idadsoyad"
+        size="20" maxlength="30" required>
+        <!-- required = karakter girmeyi zorunlu hale getiriyor
+         yani boş bırakılamaz. -->
+         <br>
+         Email:
+         <input type="email" name="email" id="email" required>
+        <br>
+        web sitesi : 
+        <input type="url" name="adres" id="adres">
+        <br>
+        yaşınız
+        <input type="number" name="yas" id="yas" required>
+        <br>
+        
+        <input type="submit" value="tamam">
+        <input type="reset" value="temizle">
+
+    </form>
+
+</body>
+
+</html>
